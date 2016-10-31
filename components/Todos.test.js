@@ -4,8 +4,7 @@ import { shallow } from 'enzyme'
 import Todos from './Todos'
 
 it('renders without crashing', () => {
-  var todos = ['test 1', 'test 2']
-  shallow(<Todos todos={todos} />);
+  shallow(<Todos />);
 })
 
 it('displays Todo List in the header', () => {
