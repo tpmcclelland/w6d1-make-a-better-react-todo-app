@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+img { width: 100%; }
+
+body {
+    background: lightgray;
+}
+
+.wrapper {
+    padding: 50px;
+}
+
+.container {
+    background: white;
+}
+
+.todolist {
+
+    width: 50%;
+    // margin: 0 50px 0 50px;
+    margin: 20px auto;
+}
